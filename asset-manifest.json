@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codefacto-test/static/css/main.42108313.chunk.css",
-    "main.js": "/codefacto-test/static/js/main.f134670d.chunk.js",
-    "main.js.map": "/codefacto-test/static/js/main.f134670d.chunk.js.map",
+    "main.js": "/codefacto-test/static/js/main.eada0f26.chunk.js",
+    "main.js.map": "/codefacto-test/static/js/main.eada0f26.chunk.js.map",
     "runtime-main.js": "/codefacto-test/static/js/runtime-main.8a1307bf.js",
     "runtime-main.js.map": "/codefacto-test/static/js/runtime-main.8a1307bf.js.map",
     "static/js/2.931d6dbb.chunk.js": "/codefacto-test/static/js/2.931d6dbb.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.8a1307bf.js",
     "static/js/2.931d6dbb.chunk.js",
     "static/css/main.42108313.chunk.css",
-    "static/js/main.f134670d.chunk.js"
+    "static/js/main.eada0f26.chunk.js"
   ]
 }
