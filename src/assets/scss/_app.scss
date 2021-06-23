@@ -1,0 +1,30 @@
+.app-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+    .app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50vw;
+       background-color: whitesmoke;
+        box-shadow: 5px 5px 12px -1px #000000;
+        border-radius: 10px;
+      
+
+    
+    }
+    
+    @media screen and (max-width: 620px) {
+        .app {
+            width: 90vw;
+            background-color: orange;
+        }
+      }
+
+}

@@ -1,0 +1,19 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .pgn-btn{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 2px solid lightblue;
+        background-color: white;
+        transition: all 0.3s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
