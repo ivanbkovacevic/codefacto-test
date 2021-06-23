@@ -53,12 +53,12 @@ body {
 .stars-container .single-star__rated {
   width: 30px;
   margin: 5px;
-  opacity: 100%;
+  opacity: 1;
   cursor: not-allowed;
 }
 
 .stars-container .single-star__not-rated {
-  opacity: 35%;
+  opacity: 0.3;
   width: 30px;
   margin: 5px;
 }
