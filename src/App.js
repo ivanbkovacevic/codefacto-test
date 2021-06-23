@@ -13,7 +13,7 @@ const [itemsToShowStart,setItemsToShow]=useState(0);
 const itemsLength=items.length;
 
 //Pagination control
-const handlePagination = arg => () => {
+const handlePagination = arg=>()=> {
 
   //Checking is it start or end of the list
   if(arg==='next' && itemsToShowStart<=10){

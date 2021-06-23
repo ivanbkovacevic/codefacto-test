@@ -17,7 +17,7 @@ const Stars = () => {
     const starsCopy=[...stars];
 
     //rating all the stars below the clicked one
-    const handleRated = arg => () => {
+    const handleRated = arg => {
         starsCopy.forEach(element => {
             if(element.id <=arg){
                 element.isMarked=true;
@@ -35,7 +35,7 @@ const Stars = () => {
         return (    
             <button title='star-btn' className="my-btn" disabled={btnDisabled.disabled} style={{cursor:btnDisabled.cursor}}
                 key={index} 
-                onClick={handleRated(index)}>
+                onClick={()=>handleRated(index)}>
                 <img className={item.isMarked ? 'single-star__rated' : 'single-star__not-rated'} src={starImg}  alt='img'>
                 </img>
             </button> 
