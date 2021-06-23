@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ivanbkovacevic/codefacto-test/static/css/main.f21b9aa1.chunk.css",
+    "main.js": "/ivanbkovacevic/codefacto-test/static/js/main.d92eef08.chunk.js",
+    "main.js.map": "/ivanbkovacevic/codefacto-test/static/js/main.d92eef08.chunk.js.map",
+    "runtime-main.js": "/ivanbkovacevic/codefacto-test/static/js/runtime-main.d24eb967.js",
+    "runtime-main.js.map": "/ivanbkovacevic/codefacto-test/static/js/runtime-main.d24eb967.js.map",
+    "static/js/2.931d6dbb.chunk.js": "/ivanbkovacevic/codefacto-test/static/js/2.931d6dbb.chunk.js",
+    "static/js/2.931d6dbb.chunk.js.map": "/ivanbkovacevic/codefacto-test/static/js/2.931d6dbb.chunk.js.map",
+    "static/js/3.6ba36317.chunk.js": "/ivanbkovacevic/codefacto-test/static/js/3.6ba36317.chunk.js",
+    "static/js/3.6ba36317.chunk.js.map": "/ivanbkovacevic/codefacto-test/static/js/3.6ba36317.chunk.js.map",
+    "index.html": "/ivanbkovacevic/codefacto-test/index.html",
+    "static/css/main.f21b9aa1.chunk.css.map": "/ivanbkovacevic/codefacto-test/static/css/main.f21b9aa1.chunk.css.map",
+    "static/js/2.931d6dbb.chunk.js.LICENSE.txt": "/ivanbkovacevic/codefacto-test/static/js/2.931d6dbb.chunk.js.LICENSE.txt",
+    "static/media/Star.5beccdfe.png": "/ivanbkovacevic/codefacto-test/static/media/Star.5beccdfe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d24eb967.js",
+    "static/js/2.931d6dbb.chunk.js",
+    "static/css/main.f21b9aa1.chunk.css",
+    "static/js/main.d92eef08.chunk.js"
+  ]
+}
