@@ -1,9 +1,18 @@
 .navbar-head{
-    text-align: center;
+    text-align: left;
     padding: 30px;
-    background-color: lightblue;
+    background-color: whitesmoke;
+    border-bottom: 2px solid grey;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 620px) {
+    .navbar-head {
+        color:white;
+        background-color: orange;
+        font-size: 1rem;
+    }
+  }

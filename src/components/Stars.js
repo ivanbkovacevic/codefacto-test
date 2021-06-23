@@ -5,6 +5,7 @@ const Stars = () => {
 
     const [btnDisabled,setBtnDisabled]=useState({disabled:false,cursor:'pointer'});
 
+    //defing stars object and values
     const[stars,setStars]= useState([
         {id:0,value:1,isMarked:false},
         {id:1,value:2,isMarked:false},
@@ -15,6 +16,7 @@ const Stars = () => {
 
     const starsCopy=[...stars];
 
+    //rating all the stars below the clicked one
     const handleRated = arg => () => {
         starsCopy.forEach(element => {
             if(element.id <=arg){
@@ -28,7 +30,7 @@ const Stars = () => {
         setBtnDisabled({disabled:true,cursor:"not-allowed"})
     }
 
-
+    //drawing the stars dinamicly
     const starsToDraw=starsCopy.map((item,index)=>{
         return (    
             <button className="my-btn" disabled={btnDisabled.disabled} style={{cursor:btnDisabled.cursor}}
