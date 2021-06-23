@@ -33,7 +33,7 @@ const Stars = () => {
     //drawing the stars dinamicly
     const starsToDraw=starsCopy.map((item,index)=>{
         return (    
-            <button className="my-btn" disabled={btnDisabled.disabled} style={{cursor:btnDisabled.cursor}}
+            <button title='star-btn' className="my-btn" disabled={btnDisabled.disabled} style={{cursor:btnDisabled.cursor}}
                 key={index} 
                 onClick={handleRated(index)}>
                 <img className={item.isMarked ? 'single-star__rated' : 'single-star__not-rated'} src={starImg}  alt='img'>
@@ -43,7 +43,7 @@ const Stars = () => {
     })
 
     return (
-        <div className="stars-container">
+        <div  className="stars-container">
            {starsToDraw}
         </div>
     );

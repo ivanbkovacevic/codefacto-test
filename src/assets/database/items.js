@@ -1,7 +1,24 @@
+import img0 from '../images/braccio-de-fero.jpeg'
+import img1 from '../images/napoletana.jpg'
+import img2 from '../images/carbonara.jpg'
+import img3 from '../images/americana.jpg'
+import img4 from '../images/quattro-stagioni.jpg'
+import img5 from '../images/red-peperoni.jpg'
+import img6 from '../images/peperoni.jpg'
+import img7 from '../images/margherita.jpg'
+import img8 from '../images/vegeteriana.jpg'
+import img9 from '../images/barbecue.jpeg'
+import img10 from '../images/pepsi.jpg'
+import img11 from '../images/schwepps.jpg'
+import img12 from '../images/fanta.jpg'
+import img13 from '../images/7up.jpg'
+import img14 from '../images/cockta.jpg'
+import img15 from '../images/miranda.jpg'
+import img16 from '../images/sprite.jpg'
 export const items=[
     {
       "id": 0,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "imageUrl": img0,
       "name": "Braccio di Ferro",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -12,7 +29,7 @@ export const items=[
     },
     {
       "id": 1,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "imageUrl": img1,
       "name": "Napoletana",
       "types": 'pizza',
       "sizes": [26, 40],
@@ -23,7 +40,7 @@ export const items=[
     },
     {
       "id": 2,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "imageUrl": img2,
       "name": "Carbonara",
       "types": 'pizza',
       "sizes": [26, 40],
@@ -34,7 +51,7 @@ export const items=[
     },
     {
       "id": 3,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "imageUrl": img3,
       "name": "Americana",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -45,7 +62,7 @@ export const items=[
     },
     {
       "id": 4,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "imageUrl": img4,
       "name": "Quattro Stagioni",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -56,7 +73,7 @@ export const items=[
     },
     {
       "id": 5,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+      "imageUrl": img5,
       "name": "Red peperoni",
       "types": 'pizza',
       "sizes": [30, 40],
@@ -67,7 +84,7 @@ export const items=[
     },
     {
       "id": 6,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "imageUrl": img6,
       "name": "Peperoni",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -78,7 +95,7 @@ export const items=[
     },
     {
       "id": 7,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "imageUrl": img7,
       "name": "Margherita",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -89,7 +106,7 @@ export const items=[
     },
     {
       "id": 8,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+      "imageUrl": img8,
       "name": "Vegeteriana",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -100,7 +117,7 @@ export const items=[
     },
     {
       "id": 9,
-      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/28/1/FNM_040112-Copy-That-002_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382541346030.jpeg",
+      "imageUrl": img9,
       "name": "Barbecue",
       "types": 'pizza',
       "sizes": [26, 30, 40],
@@ -111,7 +128,7 @@ export const items=[
     },
     {
       "id": 10,
-      "imageUrl": "https://www.ediskont.rs/uploads/store/products/images/pepsi_025l_640.jpg",
+      "imageUrl": img10,
       "name": "Pepsi",
       "types":  'drinks',
       "sizes": [26, 30, 40],
@@ -122,7 +139,7 @@ export const items=[
     },
     {
       "id": 11,
-      "imageUrl": "https://www.sandhamswine.co.uk/sites/default/files/vintner_images/0037mx.jpg",
+      "imageUrl": img11,
       "name": "Schwepps",
       "types":  'drinks',
       "sizes": [26, 30, 40],
@@ -133,7 +150,7 @@ export const items=[
     },
     {
       "id": 12,
-      "imageUrl": "https://assets.sainsburys-groceries.co.uk/gol/2900766/1/640x640.jpg",
+      "imageUrl": img12,
       "name": "Fanta",
       "types": 'drinks',
       "sizes": [26, 30, 40],
@@ -144,7 +161,7 @@ export const items=[
     },
     {
       "id": 13,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71F2SmHjhKL._SL1500_.jpg",
+      "imageUrl": img13,
       "name": "7Up",
       "types":  'drinks',
       "sizes": [26, 30, 40],
@@ -155,7 +172,7 @@ export const items=[
     },
     {
       "id": 14,
-      "imageUrl": "http://www.foksan.co.rs/en/images/stories/virtuemart/product/6798.jpg",
+      "imageUrl": img14,
       "name": "Cockta",
       "types":  'drinks',
       "sizes": [26, 30, 40],
@@ -166,7 +183,7 @@ export const items=[
     },
     {
       "id": 15,
-      "imageUrl": "https://www.bigbasket.com/media/uploads/p/xxl/40094180_8-mirinda-soft-drink.jpg",
+      "imageUrl": img15,
       "name": "Miranda",
       "types":  'drinks',
       "sizes": [26, 30, 40],
@@ -177,7 +194,7 @@ export const items=[
     },
     {
       "id": 16,
-      "imageUrl": "https://5.imimg.com/data5/LL/JN/LV/SELLER-48652903/750ml-sprite-500x500.jpg",
+      "imageUrl": img16,
       "name": "Sprite",
       "types":  'drinks',
       "sizes": [26, 30, 40],

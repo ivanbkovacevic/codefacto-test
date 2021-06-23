@@ -23,9 +23,8 @@ const handlePagination = arg => () => {
   }
 }
 
-
   return (
-    <div className="app-container">
+    <div data-testid="app" className="app-container">
       <Navbar />
       <div className="app">
           <ItemsList  itemstoshowstart={itemsToShowStart} />
