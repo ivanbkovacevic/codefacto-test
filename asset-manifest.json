@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/codefacto-test/static/css/main.42108313.chunk.css",
-    "main.js": "/codefacto-test/static/js/main.eada0f26.chunk.js",
-    "main.js.map": "/codefacto-test/static/js/main.eada0f26.chunk.js.map",
-    "runtime-main.js": "/codefacto-test/static/js/runtime-main.8a1307bf.js",
-    "runtime-main.js.map": "/codefacto-test/static/js/runtime-main.8a1307bf.js.map",
-    "static/js/2.931d6dbb.chunk.js": "/codefacto-test/static/js/2.931d6dbb.chunk.js",
-    "static/js/2.931d6dbb.chunk.js.map": "/codefacto-test/static/js/2.931d6dbb.chunk.js.map",
-    "static/js/3.6ba36317.chunk.js": "/codefacto-test/static/js/3.6ba36317.chunk.js",
-    "static/js/3.6ba36317.chunk.js.map": "/codefacto-test/static/js/3.6ba36317.chunk.js.map",
+    "main.css": "/codefacto-test/static/css/main.d81e1edb.chunk.css",
+    "main.js": "/codefacto-test/static/js/main.6db8b88b.chunk.js",
+    "main.js.map": "/codefacto-test/static/js/main.6db8b88b.chunk.js.map",
+    "runtime-main.js": "/codefacto-test/static/js/runtime-main.bbbc7474.js",
+    "runtime-main.js.map": "/codefacto-test/static/js/runtime-main.bbbc7474.js.map",
+    "static/js/2.1a48256f.chunk.js": "/codefacto-test/static/js/2.1a48256f.chunk.js",
+    "static/js/2.1a48256f.chunk.js.map": "/codefacto-test/static/js/2.1a48256f.chunk.js.map",
+    "static/js/3.a383c271.chunk.js": "/codefacto-test/static/js/3.a383c271.chunk.js",
+    "static/js/3.a383c271.chunk.js.map": "/codefacto-test/static/js/3.a383c271.chunk.js.map",
     "index.html": "/codefacto-test/index.html",
-    "static/css/main.42108313.chunk.css.map": "/codefacto-test/static/css/main.42108313.chunk.css.map",
-    "static/js/2.931d6dbb.chunk.js.LICENSE.txt": "/codefacto-test/static/js/2.931d6dbb.chunk.js.LICENSE.txt",
+    "static/css/main.d81e1edb.chunk.css.map": "/codefacto-test/static/css/main.d81e1edb.chunk.css.map",
+    "static/js/2.1a48256f.chunk.js.LICENSE.txt": "/codefacto-test/static/js/2.1a48256f.chunk.js.LICENSE.txt",
     "static/media/7up.22d6aa03.jpg": "/codefacto-test/static/media/7up.22d6aa03.jpg",
     "static/media/Star.5beccdfe.png": "/codefacto-test/static/media/Star.5beccdfe.png",
     "static/media/americana.ef6fb9c7.jpg": "/codefacto-test/static/media/americana.ef6fb9c7.jpg",
@@ -20,6 +20,7 @@
     "static/media/carbonara.4d6b368d.jpg": "/codefacto-test/static/media/carbonara.4d6b368d.jpg",
     "static/media/cockta.6a6095a7.jpg": "/codefacto-test/static/media/cockta.6a6095a7.jpg",
     "static/media/fanta.5119bb9a.jpg": "/codefacto-test/static/media/fanta.5119bb9a.jpg",
+    "static/media/icomoon.css": "/codefacto-test/static/media/icomoon.f17aee50.ttf",
     "static/media/margherita.da6fffa6.jpg": "/codefacto-test/static/media/margherita.da6fffa6.jpg",
     "static/media/miranda.0ddd496b.jpg": "/codefacto-test/static/media/miranda.0ddd496b.jpg",
     "static/media/napoletana.f52f76ec.jpg": "/codefacto-test/static/media/napoletana.f52f76ec.jpg",
@@ -32,9 +33,9 @@
     "static/media/vegeteriana.352870c8.jpg": "/codefacto-test/static/media/vegeteriana.352870c8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a1307bf.js",
-    "static/js/2.931d6dbb.chunk.js",
-    "static/css/main.42108313.chunk.css",
-    "static/js/main.eada0f26.chunk.js"
+    "static/js/runtime-main.bbbc7474.js",
+    "static/js/2.1a48256f.chunk.js",
+    "static/css/main.d81e1edb.chunk.css",
+    "static/js/main.6db8b88b.chunk.js"
   ]
 }
