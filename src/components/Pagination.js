@@ -13,8 +13,9 @@ const Pagination = (props) => {
             disabled={props.itemstoshowstart >props.itemslength-6 ? true : false}
             onClick={props.handlepagination('next')}>NEXT
             </button>
+          
         </div>
     );
 };
 
-export default Pagination;
+export default Pagination ;//nvi
