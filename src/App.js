@@ -1,5 +1,7 @@
 
 import './assets/scss/style.css';
+import './assets/scss/icomoon.css';
+
 import ItemsList from './components/ItemsList';
 import {items} from './assets/database/items';
 import Pagination from './components/Pagination';
