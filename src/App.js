@@ -7,6 +7,7 @@ import {items} from './assets/database/items';
 import Pagination from './components/Pagination';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
+import BorderDashed from './components/BorderDashed';
 
 
 function App() {
@@ -35,6 +36,7 @@ const handlePagination = arg=>()=> {
             handlepagination={handlePagination}
             itemslength={itemsLength}
           />
+          <BorderDashed />
       </div>
     </div>
   );
