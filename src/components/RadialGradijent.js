@@ -6,7 +6,8 @@ const RadialGradijent = () => {
         <div className="radial-container">
            <p>radial gradijen</p> 
         </div>
-        <div className="multiple-gradient">o</div>
+        <div className="multiple-gradient"></div>
+        <p>grana1</p>
         </>
     );
 };
