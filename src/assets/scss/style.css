@@ -275,4 +275,26 @@ body {
 p {
   color: red;
 }
+
+.radial-container {
+  height: 400px;
+  width: 100%;
+  border: 2px solid red;
+  background-image: radial-gradient(ellipse, blue 20%, transparent 60%);
+  background-size: 90% 35%;
+  background-repeat: no-repeat;
+  background-position: 50% 90%;
+}
+
+.multiple-gradient {
+  width: 100%;
+  height: 300px;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(blue)) 100px 100px no-repeat, -webkit-gradient(linear, left top, right top, color-stop(10%, white), color-stop(blue), color-stop(90%, blue), to(rgba(255, 255, 255, 0.295)));
+  background: linear-gradient(0deg, white, blue) 100px 100px no-repeat, linear-gradient(90deg, white 10%, blue, blue 90%, rgba(255, 255, 255, 0.295));
+  margin-bottom: 100px;
+}
+
+p {
+  color: green;
+}
 /*# sourceMappingURL=style.css.map */

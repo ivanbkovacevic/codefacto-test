@@ -8,6 +8,7 @@ import Pagination from './components/Pagination';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
 import BorderDashed from './components/BorderDashed';
+import RadialGradijent from './components/RadialGradijent';
 
 
 function App() {
@@ -37,6 +38,7 @@ const handlePagination = arg=>()=> {
             itemslength={itemsLength}
           />
           <BorderDashed />
+          <RadialGradijent />
       </div>
     </div>
   );
