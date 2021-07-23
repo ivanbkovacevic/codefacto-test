@@ -7,6 +7,12 @@ const RadialGradijent = () => {
            <p>radial gradijen</p> 
         </div>
         <div className="multiple-gradient">o</div>
+        main branch
+        main branch
+        main branch
+        main branch
+        main branch
+        main branch
         </>
     );
 };
