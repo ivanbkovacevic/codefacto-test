@@ -8,6 +8,7 @@ const RadialGradijent = () => {
         </div>
         <div className="multiple-gradient"></div>
         <p>grana1</p>
+        <p>grana1 1commit</p>
         </>
     );
 };
