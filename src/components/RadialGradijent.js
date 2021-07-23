@@ -18,6 +18,14 @@ const RadialGradijent = () => {
         <p>grana1 1commit</p>
         <p>grana1 2commit</p>
 
+        mani
+        mani
+        mani
+        mani
+        mani
+        mani
+        mani
+
         </>
     );
 };
