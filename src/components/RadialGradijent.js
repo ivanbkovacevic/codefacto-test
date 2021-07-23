@@ -11,12 +11,6 @@ const RadialGradijent = () => {
         <p>grana1 1commit</p>
         <p>grana1 2commit</p>
 
-        grana 1 ponovo commit
-        grana 1 ponovo commit
-
-        grana3  1 commit
-
-
         </>
     );
 };
