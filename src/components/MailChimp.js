@@ -3,42 +3,21 @@ const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 const MailChimp = () => {
 
-    // mailchimp.setConfig({
-    //   apiKey: "8a7f9ef0f618d8d9c2cf2e5d9a01fedc-us4",
-    //   server: "us4",
-    // });
-    
-    // async function run() {
-    //   const response = await mailchimp.ping.get();
-    //   console.log(response);
-    // }
-    
-    // run();
+  function ready() {
+    const { type } = window.screen.orientation;
+    console.log(`Fullscreen and locked to ${type}. Ready!`);
+  }
 
-    const [msg,setMsg] = useState('')
-    useEffect(()=>{
-      
-      const ornChange = () => {
-        console.log( window.screen.orientation.type)
-        if(window.screen.orientation.type === 'portrait-primary'){
-          console.log('portrait-primary ---')
-          window.screen.orientation.lock('portrait-primary'); 
-          setMsg('ok je')
-        }else{
-        setMsg('rotate phone')
-      }
+
+    async function start() {
+      await document.body.requestFullscreen();
+      await window.screen.orientation.lock("portrait-primary");
+      ready();
     }
-  
-      window.screen.orientation.addEventListener('change',ornChange)
 
-      return ()=>{
-       window.removeEventListener('orientationchange',ornChange)
-      }
-    },[])
-  
     return (
         <div>
-            <h1>{msg}</h1>
+          <button onClick={()=>start()}>GO</button>
             <h1>MailCHIMP</h1>
 
         </div>
