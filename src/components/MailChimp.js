@@ -2,23 +2,23 @@ import React, { useState, useEffect} from 'react';
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 const MailChimp = () => {
-
+useEffect(()=>{
   function ready() {
     const { type } = window.screen.orientation;
     console.log(`Fullscreen and locked to ${type}. Ready!`);
   }
-
-
     async function start() {
       await document.body.requestFullscreen();
       await window.screen.orientation.lock("portrait-primary");
       ready();
     }
+    document.body.addEventListener('click',start)
+},[])
 
     return (
         <div>
-          <button onClick={()=>start()}>GO</button>
-            <h1>MailCHIMP</h1>
+        
+            <h1>body</h1>
 
         </div>
     );
