@@ -15,12 +15,17 @@ const MailChimp = () => {
     
     // run();
 
-      useEffect(()=>{
- 
-    const ornChange = () => {
-      if(window.screen.orientation.type === 'portrait-primary'){
-        console.log('portrait-primary')
-        const lockscreen=  window.screen.orientation.lock('portrait-primary'); 
+    const [msg,setMsg] = useState('')
+    useEffect(()=>{
+      
+      const ornChange = () => {
+        console.log( window.screen.orientation.type)
+        if(window.screen.orientation.type === 'portrait-primary'){
+          console.log('portrait-primary ---')
+          window.screen.orientation.lock('portrait-primary'); 
+          setMsg('ok je')
+        }else{
+        setMsg('rotate phone')
       }
     }
   
@@ -33,6 +38,7 @@ const MailChimp = () => {
   
     return (
         <div>
+            <h1>{msg}</h1>
             <h1>MailCHIMP</h1>
 
         </div>
