@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import { useState } from 'react';
 import BorderDashed from './components/BorderDashed';
 import RadialGradijent from './components/RadialGradijent';
+import MailChimp from './components/MailChimp';
 
 
 function App() {
@@ -39,6 +40,7 @@ const handlePagination = arg=>()=> {
           />
           <BorderDashed />
           <RadialGradijent />
+          <MailChimp />
       </div>
     </div>
   );
