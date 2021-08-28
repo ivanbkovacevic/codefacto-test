@@ -12,14 +12,17 @@ useEffect(()=>{
       await window.screen.orientation.lock("portrait-primary");
       ready();
     }
-    document.body.addEventListener('click',start)
+
+    const double = () =>{
+      ready()
+      start()
+    }
+    document.body.addEventListener('click',double)
 },[])
 
     return (
         <div>
-        
             <h1>body</h1>
-
         </div>
     );
 }

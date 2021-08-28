@@ -21,6 +21,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   background-color: white;
+  overflow-y: auto;
 }
 
 /* 
@@ -295,6 +296,6 @@ p {
 }
 
 p {
-  color: green;
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
