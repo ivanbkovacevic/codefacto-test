@@ -9,15 +9,16 @@ useEffect(()=>{
   }
     async function start() {
       await document.documentElement.requestFullscreen();
+      console.log('start')
       await window.screen.orientation.lock("portrait-primary");
-      ready();
     }
 
     const double = () =>{
-      ready()
       start()
+      ready()
     }
     document.documentElement.addEventListener('click',double)
+
 },[])
 
     return (
