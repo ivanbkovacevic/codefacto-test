@@ -8,7 +8,7 @@ useEffect(()=>{
     console.log(`Fullscreen and locked to ${type}. Ready!`);
   }
     async function start() {
-      await document.body.requestFullscreen();
+      await document.documentElement.requestFullscreen();
       await window.screen.orientation.lock("portrait-primary");
       ready();
     }
@@ -17,7 +17,7 @@ useEffect(()=>{
       ready()
       start()
     }
-    document.body.addEventListener('click',double)
+    document.documentElement.addEventListener('click',double)
 },[])
 
     return (
